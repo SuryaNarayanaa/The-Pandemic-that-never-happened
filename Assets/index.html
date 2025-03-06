@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking News - Thanatos Virus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #c00;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav {
+            background: #900;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .breaking-news {
+            background-color: yellow;
+            color: black;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .article-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #c00;
+        }
+        .article-content {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .related-articles {
+            margin-top: 20px;
+            padding: 20px;
+            background: #eee;
+        }
+        .related-articles a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #c00;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">CNN - Breaking News</div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">World</a>
+        <a href="#">Politics</a>
+        <a href="#">Health</a>
+        <a href="#">Tech</a>
+        <a href="#">Science</a>
+    </div>
+    <div class="breaking-news">⚠️ URGENT: Deadly Thanatos Virus Spreading Globally ⚠️</div>
+    <div id="news-container">
+        <div class="container">
+            <div class="article-title">Deadly Thanatos Virus Spreads Worldwide</div>
+            <div class="article-content">
+                <p><strong>March 5, 2025 – Global Health Alert</strong></p>
+                <p>A new, highly lethal virus known as <strong>Thanatos</strong> has emerged, sending shockwaves across the globe. Originating from an undisclosed region, the virus has begun its rapid spread, leaving scientists scrambling for answers.</p>
+                <p><strong>Unprecedented Lethality:</strong> Health officials warn that Thanatos exhibits an <strong>alarming 80% fatality rate</strong>, surpassing even the deadliest pandemics in history. Symptoms escalate from mild fever to total organ failure within <strong>72 hours</strong>.</p>
+                <img src="https://source.unsplash.com/800x400/?virus,hospital" alt="Hospital overwhelmed with patients">
+                <p><strong>Governments worldwide</strong> have declared states of emergency, enforcing <strong>strict lockdowns</strong> and deploying the military to maintain order. Reports of <strong>mass evacuations, riots, and food shortages</strong> are emerging.</p>
+                <img src="https://source.unsplash.com/800x400/?quarantine,lockdown" alt="City under lockdown">
+                <p>Some speculate that Thanatos may have been <strong>engineered as a bioweapon</strong>, while others fear an <strong>alien origin</strong>. Online sources claim evidence of government cover-ups.</p>
+                <img src="https://source.unsplash.com/800x400/?conspiracy,coverup" alt="Conspiracy theories about Thanatos virus">
+            </div>
+        </div>
+    </div>
+    <div class="related-articles">
+        <h2>Related Articles</h2>
+        <a href="#">Government Denies Bioweapon Claims</a>
+        <a href="#">Thanatos Virus: What Scientists Are Saying</a>
+        <a href="#">Economic Fallout of the Global Pandemic</a>
+        <a href="#">Survival Guide: How to Protect Your Family</a>
+    </div>
+    <script>
+        let page = 1;
+        const maxPages = 10;
+        function loadMoreArticles() {
+            if (page >= maxPages) return;
+            let newArticle = document.createElement("div");
+            newArticle.classList.add("container");
+            newArticle.innerHTML = `
+                <div class="article-title">New Thanatos Virus Updates (Page ${page})</div>
+                <div class="article-content">
+                    <p>Experts warn that new strains of the Thanatos virus are emerging, making containment even harder. The situation continues to deteriorate as global leaders scramble for solutions.</p>
+                    <img src="https://source.unsplash.com/800x400/?virus,pandemic" alt="New outbreak of Thanatos virus">
+                    <p>Healthcare systems are overwhelmed, and emergency protocols are being activated worldwide. Scientists remain hopeful but warn that the worst is yet to come.</p>
+                </div>
+            `;
+            document.getElementById("news-container").appendChild(newArticle);
+            page++;
+        }
+        
+        window.addEventListener("scroll", function () {
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+                loadMoreArticles();
+            }
+        });
+    </script>
+</body>
+</html>

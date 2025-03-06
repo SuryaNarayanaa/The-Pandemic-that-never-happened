@@ -1,0 +1,50 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 26 Feb 2025 17:10:10 at https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html -O1 "C:\Users\Dinesh.LAPTOP-OO5HEB93\Documents\Clone Sites\CNN-New Virus" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/metaURL (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/GET (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/POST (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/profiles/sanjay-gupta-profile" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://media.cnn.com/api/v1/images/stellar/prod/140326162449-sanjay-gupta.jpg?q=x_2,y_0,h_898,w_1596,c_crop/h_270,w_480/c_thumb,g_face,w_100,h_100%22 (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/shows/erin-burnett-out-front" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/profiles/john-general" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/profiles/nic-robertson" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://media.cnn.com/api/v1/images/stellar/prod/230620122953-nic-robertson-2023.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_100,h_100%22 (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/profiles/nick-paton-walsh" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://media.cnn.com/api/v1/images/stellar/prod/181120154047-nick-paton-walsh-2018.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_100,h_100%22 (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/profiles/augusta-anthony-profile" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/still_21375184_116436.629_still.jpg (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/shows/the-lead" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/shows/newsroom" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/"https://www.cnn.com/shows/amanpour" (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/o (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/window.location (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/services/client/vertical-video/vertical-video-metrics.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/services/client/underscored-api/underscored-api-client.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/services/client/follow.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/t (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/services/client/arkose.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/services/universal/zion-dalton-sdk.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/components/openweb-convo/comment-counter.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/services/client/tve-asset.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/components/user-account-sso-button/utils/apple-button.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/services/universal/video.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/e (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/components/content-recs/client.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/components/openweb-convo/client.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/r (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/=true; max-age=86400; path=/ (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/components/user-account-nav/client.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"Not Found" (404) at link https://edition.cnn.com/components/video-playlist/client.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/components/mvpd-picker/client.js (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+17:11:38	Error: 	"OK" (404) at link https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/n (from https://edition.cnn.com/2020/01/06/health/china-pneumonia-intl-hnk/index.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 28 seconds : 113 links scanned, 73 files written (11953232 bytes overall) [10084460 bytes received at 114596 bytes/sec], 35761373 bytes transferred using HTTP compression in 38 files, ratio 14%, 5.3 requests per connection
+(39 errors, 0 warnings, 0 messages)

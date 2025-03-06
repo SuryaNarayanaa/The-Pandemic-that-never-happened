@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boon Labs</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 1.1em;
+            text-decoration: none;
+            background: #ff9800;
+            color: white;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #e68900;
+        }
+        /* Hide the file list from normal users */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Boon Labs</h1>
+        <p>Cutting-edge research from Anthrax Island.</p>
+        <p>Boon Labs specializes in virology, epidemiology, and pathogen containment, working on virus detection, vaccine research, and biodefense strategies.</p>
+    </div>
+
+    <!-- Hidden File List -->
+    <div id="hidden-files" class="hidden"></div>
+
+    <script>
+        // Hidden files
+
+        console.log("Hidden Directory Detected: /files/");
+        console.log("Available Files:");
+
+        // Append hidden file links in the console
+
+            // Hidden clickable links in Elements tab
+            let hiddenDiv = document.getElementById("hidden-files");
+            let link = document.createElement("a");
+            link.href = filePath;
+            link.download = file;
+            link.innerText = file;
+            hiddenDiv.appendChild(link);
+        
+    </script>
+</body>
+</html>

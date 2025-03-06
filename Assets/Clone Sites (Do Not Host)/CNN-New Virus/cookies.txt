@@ -1,0 +1,11 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+edition.cnn.com	TRUE	/2020/01/06/health/china-pneumonia-intl-hnk/index.html	FALSE	1999999999	wbdFch	e078928a7f91582e98c2b1dee57e8eb5b8b809e0
+.cnn.com	TRUE	/	FALSE	1999999999	FastAB	0=0736,1=8376,2=3449,3=0817,4=6666,5=4400,6=0949,7=4356,8=3224,9=7013,10=5030,11=1593,12=7731,13=0916,14=3216,15=8160,16=7555,17=4540,18=6610,19=6997
+media.cnn.com	TRUE	/	FALSE	1999999999	SameSite	None
+.cnn.com	TRUE	/	FALSE	1999999999	SecGpc	0
+.cnn.com	TRUE	/	FALSE	1999999999	countryCode	IN
+.cnn.com	TRUE	/	FALSE	1999999999	stateCode	TN
+.cnn.com	TRUE	/	FALSE	1999999999	geoData	coimbatore|TN|641001|IN|AS|530|broadband|10.960|76.990|356007
+edition.cnn.com	TRUE	/	FALSE	1999999999	SameSite	None
+
